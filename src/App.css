@@ -1,0 +1,92 @@
+.Header {
+  width: 100%;
+  height: 70px;
+  background-color: cadetblue;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fristBtn {
+  position: relative;
+  left: 120px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 3px solid;
+  height: 100vh;
+  background-image: url(https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg);
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+.form {
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px grey;
+  margin-top: 50px;
+}
+.form input {
+  display: inline-block;
+  width: 320px;
+  height: 29px;
+  border-radius: 10px;
+}
+.form button {
+  height: 33px;
+  border-radius: 10px;
+}
+.div {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 40px;
+
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px grey;
+  background-color: aliceblue;
+}
+.div button {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: cadetblue;
+  cursor: pointer;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
